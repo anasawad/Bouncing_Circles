@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Screens">
+      <UniqueIdentifier>{7c2abf68-021c-43f0-8596-91e806cca214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screen Manager">
+      <UniqueIdentifier>{99a697c3-0d13-4f33-b4f0-974cbe583f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bouncing Bodies">
+      <UniqueIdentifier>{67cec2fb-aa75-47e4-965b-bab002810f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Handlers">
+      <UniqueIdentifier>{05bf39af-936e-4d3a-a8fc-021e79fc9f71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Screen.h">
+      <Filter>Screen Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Screen Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AllIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Bouncing Bodies</Filter>
+    </ClInclude>
+    <ClInclude Include="gameWorld.h">
+      <Filter>Bouncing Bodies</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Bouncing Bodies</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGameScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="WelcomingScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="TextHelper.h">
+      <Filter>Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseHandler.h">
+      <Filter>Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardHandler.h">
+      <Filter>Handlers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Screen Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Screen Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextHelper.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
